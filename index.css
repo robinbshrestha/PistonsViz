@@ -1,0 +1,13 @@
+.pistons{
+    position: relative;
+    bottom: 625px;
+    color: white;
+    display: flex;
+    width: vh;
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+div{
+
+}
