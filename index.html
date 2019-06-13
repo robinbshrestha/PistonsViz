@@ -11,6 +11,17 @@
     <body>
         <div id="chart"></div>
         <h1 class="pistons">Detroit Pistons</h1>
-        <script src="lib/bubbles.js"></script>
+        <div id="buttons">
+            <span>
+                <label><input id="minutes" type="radio" name="grouping" value="minutes" checked>Minutes Played</label>
+                <label><input id="ppg" type="radio" name="grouping" value="ppg">Points Per Game</label>
+                <label><input id="asts" type="radio" name="grouping" value="asts">Assists Per Game</label>
+                <label><input id="reb" type="radio" name="grouping" value="reb">Rebounds Per Game</label>
+            </span>
+        </div>
+
+
+
+        <script src="./lib/bundle.js"></script>
     </body>
 </html> 
