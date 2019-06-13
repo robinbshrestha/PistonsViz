@@ -1,13 +1,22 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
 .pistons{
     position: relative;
-    bottom: 625px;
+    bottom: 626px;
     color: white;
     display: flex;
-    width: vh;
+    width: 600px;
+    justify-content: center;
     background-color: blue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-div{
-
+p, text {
+    font-size: 0.85em;
+}
+svg {
+    background: #d7073b;
 }
