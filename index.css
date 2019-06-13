@@ -28,3 +28,7 @@ svg {
       top: 0px;
       bottom: 0px;
     } */
+
+.tooltip {
+  text-decoration: underline;
+} 

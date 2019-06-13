@@ -17,7 +17,7 @@
     "d3-cluster": "^1.0.0-alpha.8",
     "d3-tip": "^0.9.1",
     "express": "^4.17.1",
-    "webpack": "^4.33.0",
+    "webpack": "^4.34.0",
     "webpack-cli": "^3.3.4"
   }
 }
