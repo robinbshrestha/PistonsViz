@@ -8,25 +8,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
     <title>Detroit Basketball</title>
+    <script src="./lib/bundle.js"></script>
+
 </head>
     <body>
         <div id="chart"></div>
-        <h1 class="pistons">Detroit Pistons</h1>
+        <!-- <h1 class="pistons">Detroit Pistons</h1> -->
 
     <div id="controls">
         <span>
-            <input id="gsw" type="button" name="grouping" value="Golden State" />
-            <input id="tor" type="button" name="grouping" value="Toronto" />
-            <input id="det" type="button" name="grouping" value="Detroit" />
-            <input id="chi" type="button" name="grouping" value="Chicago" />
+            <input id="gsw" type="button" name="gsw" value="Golden State" />
+            <input id="tor" type="button" name="tor" value="Toronto" />
+            <input id="det" type="button" name="det" value="Detroit" />
+            <input id="chi" type="button" name="chi" value="Chicago" />
         </span>
 
-    <script src="./lib/bundle.js"></script>
-            <script>
-                d3.queue() //pulling in data
-                    .defer(d3.csv, "pistons_data.csv")
-                    .await(createBubbleChart)
-            </script>
-    
     </body>
 </html> 
