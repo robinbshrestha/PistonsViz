@@ -8,27 +8,15 @@ html, body {
     bottom: 626px;
     color: white;
     display: flex;
-    width: 600px;
+    width: 800px;
     justify-content: center;
     background-color: blue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-p, text {
+/* p, text {
     font-size: 0.85em;
-}
+} */
 svg {
     background: #d7073b;
 }
-/* 
-    #chart {
-      position: fixed;
-      left: 0px;
-      right: 0px;
-      top: 0px;
-      bottom: 0px;
-    } */
-
-.tooltip {
-  text-decoration: underline;
-} 
