@@ -7,7 +7,11 @@ const tor = [{
     "STL": 12,
     "BLK": 7,
     "TOV": 18,
-    "PTS": 171
+    "PTS": 171,
+    "ptsg": 30.5,
+    "trb": 9.1,
+    "ast": 3.9,
+    "image_path": "images/kawhi-leonard.jpg"
   },
   {
     "Team": "TOR",
@@ -18,7 +22,11 @@ const tor = [{
     "STL": 3,
     "BLK": 4,
     "TOV": 9,
-    "PTS": 119
+    "PTS": 119,
+    "ptsg": 19.0,
+    "trb": 7.1,
+    "ast": 2.8,
+    "image_path": "images/pascal-siakam.jpg"
   },
   {
     "Team": "TOR",
@@ -29,7 +37,11 @@ const tor = [{
     "STL": 10,
     "BLK": 3,
     "TOV": 15,
-    "PTS": 97
+    "PTS": 97,
+      "ptsg": 15.0,
+      "trb": 6.6,
+      "ast": 4.9,
+      "image_path": "images/kyle-lowry.jpg"
   },
   {
     "Team": "TOR",
@@ -40,7 +52,11 @@ const tor = [{
     "STL": 7,
     "BLK": 0,
     "TOV": 6,
-    "PTS": 84
+    "PTS": 84,
+      "ptsg": 8.0,
+      "trb": 1.8,
+      "ast": 2.6,
+      "image_path": "images/fred-vanvleet.jpg"
   },
   {
     "Team": "TOR",
@@ -51,7 +67,11 @@ const tor = [{
     "STL": 3,
     "BLK": 2,
     "TOV": 7,
-    "PTS": 72
+    "PTS": 72,
+      "ptsg": 9.4,
+      "trb": 6.4,
+      "ast": 3.0,
+      "image_path": "images/marc-gasol.jpg"
   },
   {
     "Team": "TOR",
@@ -62,7 +82,11 @@ const tor = [{
     "STL": 5,
     "BLK": 10,
     "TOV": 8,
-    "PTS": 68
+    "PTS": 68,
+      "ptsg": 9.4,
+      "trb": 6.0,
+      "ast": 0.9,
+      "image_path": "images/serge-ibaka.jpg"
   },
   {
     "Team": "TOR",
@@ -73,18 +97,26 @@ const tor = [{
     "STL": 7,
     "BLK": 3,
     "TOV": 8,
-    "PTS": 44
-  // }
-  // {
-  //   "Team": "TOR",
-  //   "Player": "Norman Powell",
-  //   "MP": 66,
-  //   "TRB": 6,
-  //   "AST": 4,
-  //   "STL": 2,
-  //   "BLK": 0,
-  //   "TOV": 2,
-  //   "PTS": 11
+    "PTS": 44,
+      "ptsg": 6.9,
+      "trb": 3.6,
+      "ast": 1.1,
+      "image_path": "images/danny-green.jpg"
+  },
+  {
+    "Team": "TOR",
+    "Player": "Norman Powell",
+    "MP": 66,
+    "TRB": 6,
+    "AST": 4,
+    "STL": 2,
+    "BLK": 0,
+    "TOV": 2,
+    "PTS": 11,
+      "ptsg": 6.5,
+      "trb": 2.2,
+      "ast": 1.1,
+      "image_path": "images/norman-powell.jpg"
   // },
   // {
   //   "Team": "TOR",

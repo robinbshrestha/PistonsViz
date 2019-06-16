@@ -17,10 +17,10 @@ html, body {
 /* p, text {
     font-size: 0.85em;
 } */
-/* svg {
+#chart {
     background: #d7073b;
     
-} */
+}
 
 
  
@@ -36,8 +36,8 @@ html, body {
   height: 600px;
   margin: auto;
   background-color: black;
-  background-image: url(./images/raptors.jpg);
-  background-size: 1000px 600px;
+  background-image: url(./images/toronto1.png);
+  background-size: 1000px 550px;
   
 }
 
@@ -48,12 +48,12 @@ svg {
 
 .bar {
   fill: #CE1141;
-  opacity: .8;
+  opacity: .85;
 }
 
 text {
   font-size: 12px;
-  fill: #A1A1A4;
+  fill: rgb(200, 200, 200);
 
 }
 
@@ -62,8 +62,7 @@ path {
 }
 
 line {
-  stroke: #A1A1A4;
-  opacity: ;
+  stroke: #rgb(200, 200, 200);;
 }
 
 line#limit {
@@ -82,7 +81,7 @@ line#limit {
 
 text.differential {
   font-size: 13px;
-  fill: #A1A1A4;
+  fill: rgb(200, 200, 200);;
 ;
 }
 
@@ -99,7 +98,7 @@ text.title {
 text.label {
   font-size: 14px;
   font-weight: bold;
-  fill: #A1A1A4;
+  fill: rgb(200, 200, 200);
 
 }
 
