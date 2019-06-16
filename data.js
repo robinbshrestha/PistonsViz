@@ -321,3 +321,4 @@ const gsw =
     }
 ]
 
+export default tor;
