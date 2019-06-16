@@ -47,7 +47,7 @@ svg {
 }
 
 .bar {
-  fill: #CE1141;
+  fill: #753BBD;
   opacity: .85;
 }
 
@@ -61,9 +61,6 @@ path {
   stroke: #A1A1A4;
 }
 
-line {
-  stroke: #rgb(200, 200, 200);;
-}
 
 line#limit {
   stroke: #A1A1A4;
