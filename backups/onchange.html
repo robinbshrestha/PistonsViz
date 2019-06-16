@@ -1,0 +1,24 @@
+<p>Show Labels
+    <select id="label-option">
+        <option value ="all">All</option>
+        <option value ="minmax">Min/Max</option>
+        <option value ="none">None</option>
+    </select>
+</p>
+
+d3.select("select")
+    .on("change"), function(d){
+        var sel = d3.select("#label-option").node().value;
+
+        svg.selectAll("text")
+            .data(monthySales)
+            .text(function(d) {return showMinMax(monthlySales, 'sales', d.sales, sel)})
+    }
+
+    < p > Choose Date Range
+        <select id= "date-option">
+            <option value="12">Last Year</option>
+            <option value="6">Last 6 months</option>
+            <option value="3">Last Quarter</option>
+    </select>
+</p >
