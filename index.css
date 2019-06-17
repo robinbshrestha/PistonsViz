@@ -30,8 +30,9 @@ html, body {
   text-align: center;
   background-color: #A1A1A4;
   font-family: Verdana, Geneva, Tahoma, sans-serif
-
   
+
+
 
 }
 
@@ -42,7 +43,9 @@ html, body {
   background-color: black;
   background-image: url(./images/toronto1.png);
   background-size: 1000px 550px;
-  
+  position: absolute;
+  top:0;bottom:0;
+  left:0;right:0;
 }
 
 svg {
