@@ -1,6 +1,8 @@
 html, body {
   margin: 0;
   height: 100%;
+  background-color: #A1A1A4;
+
 }
 
 /* .pistons{
@@ -17,10 +19,10 @@ html, body {
 /* p, text {
     font-size: 0.85em;
 } */
-#chart {
+/* #chart {
     background: #d7073b;
     
-}
+} */
 
 
  
